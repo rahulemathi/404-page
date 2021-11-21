@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding:0;
+}
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+
+*/
+header h2{
+    position: absolute;
+    font-family:'Inconsolata', monospace;
+    font-weight: 700;
+    left:77px;
+    top:40px;
+    color:#333333;
+}
+
+.scarecrow{
+    position: relative;
+    top: 265px;
+    left:77px;
+    width:539.22px;
+    height:447.43px;
+}
+
+.title{
+    font-family: 'Space Mono', monospace;
+    font-weight:700;
+    position:absolute;
+    top:265px;
+    right:119px;
+    width:586px;
+    font-size: 64px;
+    height:190px;
+    line-height:94px;
+    left:735px;
+    color: #333333;
+}
+
+.err-msg{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    position:absolute;
+    top:491;
+    left:736px;
+    right:323px;
+    color:#4f4f4f;
+    width: 381px;
+    height: 108px;
+}
+
+button{
+    font-family: 'Space Mono', monospace;
+    font-weight:700;
+    position:absolute;
+    width:216px;
+    height:68px;
+    background-color:#333333;
+    color:#FFFFFF;
+    top:687px;
+    left:783px;
+    right:527px;
+    bottom:372px;
+}
+
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500px;
+    color:#BDBDBD;
+    position:absolute;
+    text-align:center;
+    width: 284px;
+    height:17px;
+    top:1039px;
+    left:577px;
+    right:576px;
+    bottom:24px;
+}   
+
+
+@media only screen and (max-width:375px){
+    * {
+        margin: 0;
+        padding:0;
+    }
+    /*
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+    
+    */
+    header h2{
+        position: absolute;
+        font-family:'Inconsolata', monospace;
+        font-weight:700;
+        width:133px;
+        height:25px;
+        left:24px;
+        top:20px;
+        right:218px;
+        color:#333333;
+        font-size:20px;
+    }
+    
+    .scarecrow{
+        position: relative;
+        top: 109px;
+        left:44px;
+        right:44.17px;
+        width:286.83px;
+        height:238px;
+    }
+    
+    .title{
+        font-family: 'Space Mono', monospace;
+        font-weight:700;
+        position:absolute;
+        top:407px;
+        left:24px;
+        right:1px;
+        width:350px;
+        font-size: 42px;
+        height:142px;
+        line-height:71px;
+        color: #333333;
+
+    }
+    
+    .err-msg{
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        font-size: 18px;
+        position:absolute;
+        top:579px;
+        left:23px;
+        right:24px;
+        color:#4f4f4f;
+        width: 328px;
+        height: 81px;
+    }
+    
+    button{
+        font-family: 'Space Mono', monospace;
+        font-weight:700;
+        position:absolute;
+        width:216px;
+        height:68px;
+        background-color:#333333;
+        color:#FFFFFF;
+        top:726px;
+        left:24px;
+        right:135px;
+        bottom:155px;
+    }
+    
+    
+    footer{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:500px;
+        color:#BDBDBD;
+        position:absolute;
+        text-align:center;
+        width: 287px;
+        height:17px;
+        top:908px;
+        left:46px;
+        right:42px;
+        bottom:24px;
+    }   
+}
